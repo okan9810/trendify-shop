@@ -13,10 +13,7 @@ const products = [
     description:
       'Kabellose Bluetooth‑Kopfhörer mit hervorragender Klangqualität, ergonomischem Design und langer Akkulaufzeit.',
     // Using a remote placeholder image service to avoid bundling local images
-    // Reference the image file located at the repository root. After uploading the
-    // image files to GitHub, the images live alongside your HTML and JS files.
-    // Use a placeholder image with text since local images are no longer bundled.
-    image: 'https://via.placeholder.com/200?text=Earbuds'
+    image: 'assets/images/earbuds.jpg'
   },
   {
     id: 2,
@@ -24,8 +21,7 @@ const products = [
     price: 49.99,
     description:
       'Multifunktionale Smartwatch mit Fitness‑Tracker, Benachrichtigungen und Herzfrequenzmessung.',
-    // Placeholder image for the Smartwatch product
-    image: 'https://via.placeholder.com/200?text=Smartwatch'
+    image: 'assets/images/smartwatch.jpg'
   },
   {
     id: 3,
@@ -33,8 +29,7 @@ const products = [
     price: 39.99,
     description:
       'Tragbarer Mixer zum Zubereiten von Smoothies unterwegs – mit USB‑Aufladung und robuster Klinge.',
-    // Placeholder image for the Portable Blender product
-    image: 'https://via.placeholder.com/200?text=Blender'
+    image: 'assets/images/blender.jpg'
   },
   {
     id: 4,
@@ -42,8 +37,7 @@ const products = [
     price: 9.99,
     description:
       'Universelle Smartphone‑Halterung für Auto, Schreibtisch oder Küche. Stabil und flexibel.',
-    // Placeholder image for the Phone Holder product
-    image: 'https://via.placeholder.com/200?text=Phone+Holder'
+    image: 'assets/images/phone-holder.jpg'
   },
   {
     id: 5,
@@ -51,8 +45,7 @@ const products = [
     price: 19.99,
     description:
       'Haltungskorrektur‑Gurt zur Unterstützung einer gesunden Rückenhaltung und Linderung von Schmerzen.',
-    // Placeholder image for the Posture Corrector product
-    image: 'https://via.placeholder.com/200?text=Posture+Corrector'
+    image: 'assets/images/posture-corrector.jpg'
   }
 ];
 
