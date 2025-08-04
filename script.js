@@ -12,8 +12,10 @@ const products = [
     price: 29.99,
     description:
       'Kabellose Bluetooth‑Kopfhörer mit hervorragender Klangqualität, ergonomischem Design und langer Akkulaufzeit.',
-    // Using a remote placeholder image service to avoid bundling local images
-    image: 'assets/images/earbuds.jpg'
+    // Use the product photo committed alongside your HTML and CSS files.
+    // The image file (earbuds.jpg) lives in the repository root, so omit
+    // any additional path information.
+    image: 'earbuds.jpg'
   },
   {
     id: 2,
@@ -21,7 +23,8 @@ const products = [
     price: 49.99,
     description:
       'Multifunktionale Smartwatch mit Fitness‑Tracker, Benachrichtigungen und Herzfrequenzmessung.',
-    image: 'assets/images/smartwatch.jpg'
+    // Point directly to the image file in the repository root for the Smartwatch.
+    image: 'smartwatch.jpg'
   },
   {
     id: 3,
@@ -29,7 +32,8 @@ const products = [
     price: 39.99,
     description:
       'Tragbarer Mixer zum Zubereiten von Smoothies unterwegs – mit USB‑Aufladung und robuster Klinge.',
-    image: 'assets/images/blender.jpg'
+    // Point directly to the image file in the repository root for the Portable Blender.
+    image: 'blender.jpg'
   },
   {
     id: 4,
@@ -37,7 +41,8 @@ const products = [
     price: 9.99,
     description:
       'Universelle Smartphone‑Halterung für Auto, Schreibtisch oder Küche. Stabil und flexibel.',
-    image: 'assets/images/phone-holder.jpg'
+    // Point directly to the image file in the repository root for the Phone Holder.
+    image: 'phone-holder.jpg'
   },
   {
     id: 5,
@@ -45,7 +50,8 @@ const products = [
     price: 19.99,
     description:
       'Haltungskorrektur‑Gurt zur Unterstützung einer gesunden Rückenhaltung und Linderung von Schmerzen.',
-    image: 'assets/images/posture-corrector.jpg'
+    // Point directly to the image file in the repository root for the Posture Corrector.
+    image: 'posture-corrector.jpg'
   }
 ];
 
