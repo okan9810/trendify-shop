@@ -13,7 +13,9 @@ const products = [
     description:
       'Kabellose Bluetooth‑Kopfhörer mit hervorragender Klangqualität, ergonomischem Design und langer Akkulaufzeit.',
     // Using a remote placeholder image service to avoid bundling local images
-    image: 'https://via.placeholder.com/200'
+    // Reference the image file located at the repository root. After uploading the
+    // image files to GitHub, the images live alongside your HTML and JS files.
+    image: 'earbuds.jpg'
   },
   {
     id: 2,
@@ -21,7 +23,7 @@ const products = [
     price: 49.99,
     description:
       'Multifunktionale Smartwatch mit Fitness‑Tracker, Benachrichtigungen und Herzfrequenzmessung.',
-    image: 'https://via.placeholder.com/200'
+    image: 'smartwatch.jpg'
   },
   {
     id: 3,
@@ -29,7 +31,7 @@ const products = [
     price: 39.99,
     description:
       'Tragbarer Mixer zum Zubereiten von Smoothies unterwegs – mit USB‑Aufladung und robuster Klinge.',
-    image: 'https://via.placeholder.com/200'
+    image: 'blender.jpg'
   },
   {
     id: 4,
@@ -37,7 +39,7 @@ const products = [
     price: 9.99,
     description:
       'Universelle Smartphone‑Halterung für Auto, Schreibtisch oder Küche. Stabil und flexibel.',
-    image: 'https://via.placeholder.com/200'
+    image: 'phone-holder.jpg'
   },
   {
     id: 5,
@@ -45,7 +47,7 @@ const products = [
     price: 19.99,
     description:
       'Haltungskorrektur‑Gurt zur Unterstützung einer gesunden Rückenhaltung und Linderung von Schmerzen.',
-    image: 'https://via.placeholder.com/200'
+    image: 'posture-corrector.jpg'
   }
 ];
 
