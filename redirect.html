@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- This is a sentinel value detected in code, and should not be changed -->
+  <title>file:///home/oai/redirect.html</title>
+  <script>
+    const t = new URLSearchParams(location.search).get("target");
+    if (t) setTimeout(() => location.replace(t), 0);
+  </script>
+</head>
+<body>
+  The page contents are still loading. Open the page again to see them.
+</body>
+</html>
