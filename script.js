@@ -15,7 +15,8 @@ const products = [
     // Using a remote placeholder image service to avoid bundling local images
     // Reference the image file located at the repository root. After uploading the
     // image files to GitHub, the images live alongside your HTML and JS files.
-    image: 'earbuds.jpg'
+    // Use a placeholder image with text since local images are no longer bundled.
+    image: 'https://via.placeholder.com/200?text=Earbuds'
   },
   {
     id: 2,
@@ -23,7 +24,8 @@ const products = [
     price: 49.99,
     description:
       'Multifunktionale Smartwatch mit Fitness‑Tracker, Benachrichtigungen und Herzfrequenzmessung.',
-    image: 'smartwatch.jpg'
+    // Placeholder image for the Smartwatch product
+    image: 'https://via.placeholder.com/200?text=Smartwatch'
   },
   {
     id: 3,
@@ -31,7 +33,8 @@ const products = [
     price: 39.99,
     description:
       'Tragbarer Mixer zum Zubereiten von Smoothies unterwegs – mit USB‑Aufladung und robuster Klinge.',
-    image: 'blender.jpg'
+    // Placeholder image for the Portable Blender product
+    image: 'https://via.placeholder.com/200?text=Blender'
   },
   {
     id: 4,
@@ -39,7 +42,8 @@ const products = [
     price: 9.99,
     description:
       'Universelle Smartphone‑Halterung für Auto, Schreibtisch oder Küche. Stabil und flexibel.',
-    image: 'phone-holder.jpg'
+    // Placeholder image for the Phone Holder product
+    image: 'https://via.placeholder.com/200?text=Phone+Holder'
   },
   {
     id: 5,
@@ -47,7 +51,8 @@ const products = [
     price: 19.99,
     description:
       'Haltungskorrektur‑Gurt zur Unterstützung einer gesunden Rückenhaltung und Linderung von Schmerzen.',
-    image: 'posture-corrector.jpg'
+    // Placeholder image for the Posture Corrector product
+    image: 'https://via.placeholder.com/200?text=Posture+Corrector'
   }
 ];
 
